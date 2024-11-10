@@ -2,5 +2,425 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+header{
+    padding: 0 120px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    height:84px ;
+    background-color: #F5F7FA;
+    
     
 }
+nav {
+    display: flex;
+    gap: 60px;
+   
+}
+nav > ul{
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+    align-items: center;
+}
+nav ul li a{
+    padding: 30px 0;
+    color: black;
+}
+.nav-btn a{
+    padding: 10px 20px;
+    color: rgb(1, 184, 16);
+    border:none;
+
+}
+.nav-btn{
+    padding: 20px 0;
+}
+.nav-btn button{
+    padding: 10px 20px;
+    background-color: rgb(1, 184, 16);
+    color: white;
+    border:none;
+}
+main{
+    /* padding: 0 80px; */
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    height: calc(100vh - 84px);
+    align-items: center;  
+    background-color: #F5F7FA;
+}
+.hero-left{
+    width: 657px;
+}
+.hero-left  h1 {
+    font-size: 64px;
+    line-height: 76px;
+}
+.hero-left span{
+    color: rgb(1, 184, 16);
+}
+.hero-left p{
+    margin: 25px 0 25px;
+}
+.hero-left button{
+    padding: 20px 38px;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(1, 184, 16) ;
+    color: white;
+}
+.ourClient{
+    padding: 0 120px;
+}
+
+.ourClient h2{
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+}
+.ourClient p{
+    text-align: center;
+    padding: 10px;
+}
+.companyLogos{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.manage h2{
+    text-align: center;
+    font-size: 36px;
+    padding: 10px;
+}
+.manage p{
+    text-align: center;
+    padding: 10px;
+}
+.members {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+.members h3{
+    margin: 10px 0;
+}
+.theUnseen-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.theUnseen-section a {
+    padding: 20px 38px;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(1, 184, 16) ;
+    color: white;
+    margin-top:30px 0px;
+}
+.unSeenParag p{
+    margin: 20px 0 80px ;
+}
+.unSeenParag h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.unSeenParag{
+    height: 300px;
+    width: 661px;
+}
+.helping{
+   
+    height: 288px; 
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+.helping h2{
+    font-size: 36px;
+    line-height: 44px;
+
+}
+.helping p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #18191f;
+}
+.helping h2 > span{
+    color: #4CAF4F;
+}
+.statistic{
+    display: flex;
+    flex-wrap: wrap;
+    width: 540px;
+    height: 160px;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 30px;
+}
+.member-stat{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 255px;
+    gap: 20px;
+}
+.mem-card{
+    box-shadow: 0 2px 2px 0;
+    padding: 30px;
+}
+.mem-card:hover{
+    box-shadow: 0 4px 4px 0;
+}
+.statistic p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    text-align: left;
+}
+.statistic h3{
+    font-size: 28px;
+    line-height: 36px;
+    color: #4d4d4d;
+}
+
+.howToSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.howToSection a{
+    padding: 20px 38px;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(1, 184, 16) ;
+    color: white;
+    margin-top: 40px;
+    
+}
+.how-t0-design{
+    width: 661px;
+    height: 308px;
+}
+.how-t0-design p{
+    margin: 30px 0 50px 0;
+}
+.tesla{
+    display: flex;
+    padding: 30px 120px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: #F5F7FA;
+}
+.tesla-right{
+    width: 748px;
+    height: 324px;
+    padding-right: 30px;
+}
+.tesla-right p{
+    font-size: 16px;
+    padding: 20px;
+    line-height: 24px;
+    color: #717171;
+    text-align: left;
+}
+.tesla-right span{
+        color: #4CAF4F;
+        padding: 20px;
+        font-size: 20px;
+}
+.tesla-right .sponsors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tesla-right .meetAll{
+    color: #4CAF4F;
+    font-size: 20px;
+}
+.meetAll i{
+    padding: 20px;
+    text-align: center;
+}
+.caring-section{
+    height:506px ;
+    padding: 30px 120px;
+    margin: 40px 0 60px 0;
+}
+.caring-header h2{
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    
+}
+.caring-header p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin:0 0 20px 0;
+    color: #717171;
+}
+.caring-section > .cards{
+    display: flex;
+    height: 366px;
+    justify-content: space-between;
+}
+.card-item{
+width: 368px;
+height: 366px;
+position: relative;
+}
+
+ .crd-prgrph{
+    width: 317px;
+    height: 176px;
+    background-color: #f5f7fa;
+    margin:0 auto;
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    padding: 16px;
+    
+}
+.crd-prgrph h4{
+    height: 84;
+    width: 285;
+    font-size: 20px; 
+    text-align: center;
+    line-height: 28px;
+    padding: 20px;
+    color: #717171;
+}
+.crd-prgrph p{
+    text-align: center;
+    height: 44px;
+    width: 285px;
+    padding:0 10px 20px 10px ;
+    font-size: 20px;
+    color: #4CAF4F;
+}
+.crd-prgrph a{
+    color: #4CAF4F;
+    text-align: center;
+    padding: 10px;
+}
+.pellentesque{
+    height: 300px;
+    text-align: center;
+    padding: 32px 120px;
+    background-color: #F5F7FA;
+   
+    /* line-height: 76; */
+}
+.pellentesque h1{
+    font-size: 64px;
+    margin: 30px 0;
+}
+.pellentesque a {
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    color: white;
+   
+}
+.pellentesque i{
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    padding: 20px 120px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #263238;
+    height: 328px;
+    color: white;
+}
+.footer-left{
+    width: 350px;
+    height: 189px;
+
+
+}
+.footer-left .socials{
+    display: flex;
+    gap: 20px;
+}
+.footer-left p{
+    line-height: 20px;
+    margin: 30px 0;
+
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 635px;
+    height: 200px;
+}
+.footer-right  li{
+    line-height: 20px;
+    color: #F5F7FA;
+    padding: 10px;
+}
+.footer-right h4{
+    font-size: 20px;
+    line-height: 28px;
+}
+.emailUs{
+
+}
+.emailUs form{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailUs form input{
+    padding: 15px;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    width: 255px;
+    background-color: #717171;
+    height: 40px;
+    color: #F5F7FA;
+    border: none;
+    
+
+}
+.emailUs form button{
+    height: 40px;
+    padding:10px 15px ;
+    margin-left: -12px;
+    border: none;
+    background-color: #717171;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+.emailUs form button i{
+    font-size: 20px;
+    text-align: center;
+    color: #f5f7fa;
+}
+.emailUs input::placeholder{
+    color: #F5F7FA;
+}
+.emailUs input:focus-visible, textarea:focus-visible, select:focus-visible {
+    outline: none;  /* Remove default outline */
+  }
